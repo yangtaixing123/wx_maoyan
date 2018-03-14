@@ -1,0 +1,72 @@
+/* pages/cinema_path/cinema_path.wxss */
+
+.nav {
+  /* overflow: hidden; */
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+.nav view {
+}
+
+.nav text {
+  padding: 30rpx 25rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.nav .navText {
+  border-bottom: 4rpx solid #eb3b48;
+  color: #eb3b48;
+  margin-bottom: 4rpx;
+}
+
+.center {
+  padding: 0 0 0 20rpx;
+}
+
+.li {
+  padding: 40rpx 24rpx 40rpx 0;
+  color: #6f6f6f;
+  border-bottom: 1rpx solid #d9d9d9;
+}
+
+.li view:not(:first-child) {
+  font-size: 30rpx;
+  margin-top: 18rpx;
+}
+
+.li view:first-child {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: black;
+}
+
+.li view:first-child text {
+  color: #eb3b48;
+}
+
+.li view:first-child text:last-child {
+  font-size: 22rpx;
+}
+
+.li view:nth-child(2) {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.li .tabs text{
+  border: 1rpx solid #6ba8ab;
+  padding:4rpx 8rpx;
+}
+.li .tabs text:not(:first-child){
+  margin-left: 10rpx;
+}
+.li view:last-child text {
+  padding: 0 10rpx;
+}
+
+.li view:last-child text:not(:first-child) {
+  border-left: 2rpx solid #6f6f6f;
+}

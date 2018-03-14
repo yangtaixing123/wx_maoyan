@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/maoyan/maoyan",
+    "pages/cinema_path/cinema_path",
+    
+    "pages/details/details",
+    "pages/reg/reg",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
+

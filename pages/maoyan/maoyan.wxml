@@ -1,0 +1,35 @@
+<view>
+  <!-- 头部 -->
+  <block class="top">
+    <view class='top'>
+      <view class='city'>
+        <text>成都</text>
+        <text></text>
+      </view>
+      <view class='topTitle'>
+        <text>热映</text>
+        <text>待映</text>
+      </view>
+      <block>
+        <icon type="search" color="red" size="18" />
+      </block>
+    </view>
+  </block>
+  <block class="center">
+    <view class='li' wx:for="{{movie}}">
+      <image class="img" src="http://172.20.10.3:3000{{item.film_covers[0].film_covers}}"></image>
+      <view class='text' data-obj='{{item}}' bindtap='to_details'>
+        <text>{{item.name}}</text>
+        <text>{{item.type}}</text>
+        <text>今天134家影院放映394场</text>
+      </view>
+      <view class='li_right'>
+        <view>
+          {{item.ratings}}
+          <text>分</text>
+        </view>
+        <button>购票</button>
+      </view>
+    </view>
+  </block>
+</view>

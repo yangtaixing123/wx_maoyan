@@ -1,0 +1,15 @@
+<form bindsubmit="formSubmit">
+  <view>
+    <input name='name'  type="text" placeholder='手机号' />
+  </view>
+  <view>
+    <input name='pwd' password type="text" placeholder='密码' />
+  </view>
+  <view>
+    <input name='pwds' password type="text" placeholder='确认密码' />
+  </view>
+   <view class="btn-area">
+    <button formType="submit">注册</button>
+    <button>返回登录</button>
+  </view>
+</form>

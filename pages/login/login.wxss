@@ -1,0 +1,16 @@
+form{
+  padding: 5rpx 5rpx 5rpx 5rpx;
+}
+form input{
+  border: 1rpx solid #777777;
+  padding: 20rpx 10rpx; 
+  margin-top: 40rpx
+}
+.btn-area{
+  display: flex;
+  align-items: center;
+  margin-top: 40rpx
+}
+.btn-area button{
+  width: 200rpx;
+}
